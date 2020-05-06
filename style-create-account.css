@@ -1,0 +1,89 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";  
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(img/C-Cab-Back.jpg);
+    background-size:cover;
+
+    
+}
+.module{
+    background-color:rgb(0,0,0,0.5);
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    color:greenyellow;
+}
+.module h1{
+    font-family:sans-serif;
+    font-size: 30px;
+    border-bottom: 6px solid #edf6f5d6;
+    margin-bottom: 50px;
+    padding: 14px 0;
+    text-align: center;
+    color:greenyellow;
+}
+.resbox{
+    display: grid;
+    width: 100%;
+    overflow: hidden;
+    font-size: 10px;
+    padding: 4px 0;
+    margin: 4px 0;
+    border-bottom: 2px solid  #ffffff;
+ 
+}
+.resbox form{
+    display: grid;
+    grid-gap: 20px;
+    
+}
+.resbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 20px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    color:blanchedalmond;
+}
+.btn{
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: #FFEB3B;
+    border: 2px solid #20877eb8;
+    color:blue;
+    padding: 10px;
+    cursor: pointer;
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.btn {
+    
+    
+}
+.btn:hover{
+    color: white;
+    background-color: #20877eb8;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+}
+p a{
+    color:greenyellow;
+    font-size: 22px;
+}
+
+::placeholder {
+    color: #d0d0d0;
+    opacity: 0.9;
+}

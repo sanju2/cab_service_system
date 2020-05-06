@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>C Cab Service System(Car Register)</title>
+    <link rel="stylesheet" href="Resourses/boostrap/bootstrap.min.css">
+    <script src="Resourses/js/jquery-3.3.1.min.js"></script>
+    <script src="Resourses/js/popper.min.js"></script>
+    <script src="Resourses/js/bootstrap.min.js"></script>
+    <link href="Resourses/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style-car-register.css" rel="stylesheet">
+</head>
+
+<body background="img/car-register-back.jpg">
+<!--navigation-->
+<?php include_once("navBar.php");?>
+    
+<!--body-->
+<div class="body-content">
+    <div class="module">
+        <h1>Car Register</h1>
+                <form action="controller.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                    
+                    <div class="resbox">
+                        <i class="icon-user"></i>
+                        <input type="text" placeholder="Plate No" name="plateno" required/>
+                    </div>
+					
+                    <div class="resbox">
+                        <i class="icon-user"></i>
+                        <input type="text" placeholder="Model" name="model" required/>
+                    </div>
+                    
+                    <div class="resbox">
+                        <i class="icon-user"></i>
+                        <input type="text" placeholder="type" name="type" required/>
+                    </div>
+                    
+                    <div class="resbox">
+                        <i class="icon-user"></i>
+                        <input type="text" placeholder="Status" name="status" required/>
+                    </div>
+                    
+                    <div class="resbox">
+                        <input type="text" placeholder="Chassy No" name="chassyno" required/>
+                    </div>
+                    
+                    <div class="resbox">
+                        <i class="icon-user"></i>
+                        <input type="text" placeholder="Seating Capacity" name="seatingcapacity" required/>
+                    </div>
+					
+                    <div class="resbox">
+                        <i class="icon-user"></i>
+                        <input type="text" placeholder="No Of KM Run" name="nokm" required/>
+                    </div>
+                    
+                   <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFile" name="image" required/>
+                       	<label class="custom-file-label" for="customFile">Choose file</label>
+
+                    </div>
+                    
+                    <input type="submit" value="Register the Vehicles" name="CarRegister" class=" btn"/> 
+                </form>
+                 
+               
+    </div>
+            
+</div> 
+</body>
+</html>

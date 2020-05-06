@@ -1,0 +1,86 @@
+  
+
+html, body{
+    /*height: 100%;
+    width: 100%;*/
+    font-family: 'Poppins', sans-serif;
+    color:gray;
+    /*background:url(img/black_ground.jpg);*/
+    
+    
+}
+
+
+
+
+
+/*feedback*/
+
+		
+.main{
+	width: 500px;
+	margin: 50px auto;
+	border-radius: 10px;
+	border: 5px solid #dc143c;
+	border-left: 40px solid #dc143c;
+	box-shadow: 1px 2px 10px #555;
+}
+.info{
+	width: 100%;
+	background-color: #dc143c;
+	padding: 7px;
+	text-shadow: 1px 1px 1px #222;
+	color: #fff;
+	font-size: 20px;
+}
+.form-box{
+	padding: 20px;
+	background-color: #eee;
+}
+label{
+	color: navy;
+	font-size: 18px;
+}
+.inp,.msg-box{
+	width: 100%;
+	padding: 10px;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border: 2px solid #dc143c;
+	font-weight: bold;
+	color: #dc143c;
+	border-right: 15px solid #dc143c;
+	border-left: 15px solid #dc143c;
+	resize: none;
+}
+.msg-box{
+	height: 80px;
+}
+.inp:focus,.msg-box:focus{
+	outline: none;
+	border: 2px solid navy;
+	border-right: 15px solid navy;
+	border-left: 15px solid navy;
+}
+.sub-btn{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 5px;
+	border: none;
+	background: linear-gradient(#dc143c,#800000);
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #444;
+}
+.sub-btn:hover{
+	background: linear-gradient(#800000,#dc143c);
+	opacity: 0.8;
+	transition: all ease-out 0.2s;
+}
+.sub-btn:focus{
+	outline: none;
+}
+
