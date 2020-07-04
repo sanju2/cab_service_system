@@ -1,0 +1,4 @@
+cab -owner chama 1234
+admin sonic 1234
+customer umee 1234
+driver maka 1234
